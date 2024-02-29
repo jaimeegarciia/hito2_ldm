@@ -1,0 +1,28 @@
+<!ELEMENT ecommerce (ano+)>
+<!ELEMENT ano (trimestre+)>
+<!ATTLIST ano
+          year CDATA #REQUIRED>
+<!ELEMENT trimestre (pedido+)>
+<!ATTLIST trimestre
+          num CDATA #REQUIRED>
+<!ELEMENT pedido (cliente, detalles)>
+<!ATTLIST pedido
+          fechaCompra CDATA #REQUIRED
+          fechaEntrega CDATA #REQUIRED
+          num CDATA #REQUIRED
+          total CDATA #REQUIRED>
+<!ELEMENT cliente (#PCDATA)>
+<!ATTLIST cliente
+          apellidos CDATA #REQUIRED
+          correo CDATA #REQUIRED
+          direccion CDATA #REQUIRED
+          fechaInclusion CDATA #REQUIRED
+          nombre CDATA #REQUIRED
+          telefono CDATA #REQUIRED>
+<!ELEMENT detalles (producto+)>
+<!ELEMENT producto (#PCDATA)>
+<!ATTLIST producto
+          nombre CDATA #REQUIRED
+          precio CDATA #REQUIRED
+          referencia CDATA #REQUIRED
+          unidades CDATA #REQUIRED>

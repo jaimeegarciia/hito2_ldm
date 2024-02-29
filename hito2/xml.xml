@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/Tecnicos/Desktop/lenguaje%20de%20marcas/2ev/hito2/xsl.xsl"?>
+
+<ecommerce>
+    <ano year="2021">
+        <trimestre num="1">
+          <pedido num="1" fechaCompra="2021-01-05" fechaEntrega="2021-01-10" total="150.00">
+            <cliente nombre="Carlos" apellidos="Gómez" telefono="111-111-1111" direccion="Calle  España, Madrid, 11111, Comunidad de Madrid" correo="carlos.gomez@example.com" fechaInclusion="2021-01-01" />
+            <detalles>
+             <producto nombre="Portátil" referencia="PT123" precio="50.00" unidades="2" />
+              <producto nombre="Ratón" referencia="RT456" precio="25.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="2" fechaCompra="2021-01-10" fechaEntrega="2021-01-15" total="200.00">
+            <cliente nombre="Ana" apellidos="López" telefono="222-222-2222" direccion="Calle Secundaria, Ciudad2, 22222, Provincia2" correo="ana.lopez@example.com" fechaInclusion="2021-01-02" />
+            <detalles>
+              <producto nombre="Teclado" referencia="TK789" precio="30.00" unidades="3" />
+              <producto nombre="Monitor" referencia="MN101" precio="20.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="3" fechaCompra="2021-01-15" fechaEntrega="2021-01-20" total="180.00">
+            <cliente nombre="María" apellidos="Rodríguez" telefono="333-333-3333" direccion="Calle Terciaria, Ciudad3, 33333, Provincia3" correo="maria.rodriguez@example.com" fechaInclusion="2021-01-03" />
+            <detalles>
+              <producto nombre="Impresora" referencia="IP567" precio="40.00" unidades="2" />
+              <producto nombre="Escáner" referencia="ES789" precio="20.00" unidades="2" />
+            </detalles>
+          </pedido>
+          <pedido num="4" fechaCompra="2021-01-20" fechaEntrega="2021-01-25" total="220.00">
+            <cliente nombre="Javier" apellidos="Fernández" telefono="444-444-4444" direccion="Calle Cuarta, Ciudad4, 44444, Provincia4" correo="javier.fernandez@example.com" fechaInclusion="2021-01-04" />
+            <detalles>
+              <producto nombre="Altavoces" referencia="AL123" precio="60.00" unidades="1" />
+              <producto nombre="Micrófono" referencia="MI456" precio="30.00" unidades="2" />
+            </detalles>
+          </pedido>
+          <pedido num="5" fechaCompra="2021-02-05" fechaEntrega="2021-02-10" total="190.00">
+            <cliente nombre="Isabel" apellidos="Gutiérrez" telefono="555-555-5555" direccion="Calle Quinta, Ciudad5, 55555, Provincia5" correo="isabel.gutierrez@example.com" fechaInclusion="2021-02-01" />
+            <detalles>
+              <producto nombre="Cámara" referencia="CM789" precio="45.00" unidades="2" />
+              <producto nombre="Trípode" referencia="TP101" precio="50.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="6" fechaCompra="2021-02-10" fechaEntrega="2021-02-15" total="210.00">
+            <cliente nombre="Miguel" apellidos="Sánchez" telefono="666-666-6666" direccion="Calle Sexta, Ciudad6, 66666, Provincia6" correo="miguel.sanchez@example.com" fechaInclusion="2021-02-02" />
+            <detalles>
+              <producto nombre="Silla de oficina" referencia="SO456" precio="30.00" unidades="3" />
+              <producto nombre="Lámpara" referencia="LA789" precio="20.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="7" fechaCompra="2021-02-15" fechaEntrega="2021-02-20" total="195.00">
+            <cliente nombre="Elena" apellidos="Martínez" telefono="777-777-7777" direccion="Calle Séptima, Ciudad7, 77777, Provincia7" correo="elena.martinez@example.com" fechaInclusion="2021-02-03" />
+            <detalles>
+              <producto nombre="Reproductor de música" referencia="RM123" precio="40.00" unidades="2" />
+              <producto nombre="Auriculares" referencia="AU456" precio="35.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="8" fechaCompra="2021-02-20" fechaEntrega="2021-02-25" total="205.00">
+            <cliente nombre="Jorge" apellidos="Pérez" telefono="888-888-8888" direccion="Calle Octava, Ciudad8, 88888, Provincia8" correo="jorge.perez@example.com" fechaInclusion="2021-02-04" />
+            <detalles>
+              <producto nombre="Smartwatch" referencia="SW789" precio="50.00" unidades="1" />
+              <producto nombre="Batería externa" referencia="BE456" precio="35.00" unidades="2" />
+            </detalles>
+          </pedido>
+          <pedido num="9" fechaCompra="2021-02-25" fechaEntrega="2021-03-01" total="185.00">
+            <cliente nombre="Carmen" apellidos="Jiménez" telefono="999-999-9999" direccion="Calle Novena, Ciudad9, 99999, Provincia9" correo="carmen.jimenez@example.com" fechaInclusion="2021-02-05" />
+            <detalles>
+              <producto nombre="Mochila" referencia="MC789" precio="40.00" unidades="2" />
+              <producto nombre="Libreta" referencia="LB456" precio="25.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="10" fechaCompra="2021-03-01" fechaEntrega="2021-03-05" total="190.00">
+            <cliente nombre="Antonio" apellidos="Ruiz" telefono="101-010-1010" direccion="Calle Décima, Ciudad10, 10101, Provincia10" correo="antonio.ruiz@example.com" fechaInclusion="2021-03-01" />
+            <detalles>
+              <producto nombre="Cámara de seguridad" referencia="CS789" precio="45.00" unidades="2" />
+              <producto nombre="Grabadora de voz" referencia="GV456" precio="50.00" unidades="1" />
+            </detalles>
+          </pedido>
+        </trimestre>
+        <trimestre num="2">
+          <pedido num="11" fechaCompra="2021-04-05" fechaEntrega="2021-04-10" total="160.00">
+            <cliente nombre="Juan" apellidos="López" telefono="111-111-1111" direccion="Calle11, Ciudad11, 11111, Provincia11" correo="juan.lopez@example.com" fechaInclusion="2021-04-01" />
+            <detalles>
+              <producto nombre="Lámpara de escritorio" referencia="LE123" precio="40.00" unidades="2" />
+              <producto nombre="Silla ergonómica" referencia="SE456" precio="60.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="12" fechaCompra="2021-04-10" fechaEntrega="2021-04-15" total="180.00">
+            <cliente nombre="María" apellidos="García" telefono="222-222-2222" direccion="Calle12, Ciudad12, 22222, Provincia12" correo="maria.garcia@example.com" fechaInclusion="2021-04-02" />
+            <detalles>
+              <producto nombre="Auriculares inalámbricos" referencia="AI789" precio="30.00" unidades="3" />
+              <producto nombre="Mousepad ergonómico" referencia="ME101" precio="30.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="13" fechaCompra="2021-04-15" fechaEntrega="2021-04-20" total="190.00">
+            <cliente nombre="Carlos" apellidos="Martínez" telefono="333-333-3333" direccion="Calle13, Ciudad13, 33333, Provincia13" correo="carlos.martinez@example.com" fechaInclusion="2021-04-03" />
+            <detalles>
+              <producto nombre="Cámara web HD" referencia="CW789" precio="45.00" unidades="2" />
+              <producto nombre="Teclado retroiluminado" referencia="TR101" precio="50.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="14" fechaCompra="2021-04-20" fechaEntrega="2021-04-25" total="220.00">
+            <cliente nombre="Ana" apellidos="Rodríguez" telefono="444-444-4444" direccion="Calle14, Ciudad14, 44444, Provincia14" correo="ana.rodriguez@example.com" fechaInclusion="2021-04-04" />
+              <detalles>
+              <producto nombre="Impresora multifunción" referencia="IM123" precio="60.00" unidades="1" />
+              <producto nombre="Router de alta velocidad" referencia="RA456" precio="30.00" unidades="2" />
+            </detalles>
+          </pedido>
+          <pedido num="15" fechaCompra="2021-05-05" fechaEntrega="2021-05-10" total="190.00">
+            <cliente nombre="David" apellidos="Fernández" telefono="555-555-5555" direccion="Calle15, Ciudad15, 55555, Provincia15" correo="david.fernandez@example.com" fechaInclusion="2021-05-01" />
+            <detalles>
+              <producto nombre="Altavoces Bluetooth" referencia="AB789" precio="45.00" unidades="2" />
+              <producto nombre="Micrófono USB" referencia="MU101" precio="50.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="16" fechaCompra="2021-05-10" fechaEntrega="2021-05-15" total="210.00">
+            <cliente nombre="Elena" apellidos="Pérez" telefono="666-666-6666" direccion="Calle16, Ciudad16, 66666, Provincia16" correo="elena.perez@example.com" fechaInclusion="2021-05-02" />
+            <detalles>
+              <producto nombre="Alfombrilla gaming" referencia="AG789" precio="30.00" unidades="3" />
+              <producto nombre="Silla gaming" referencia="SG101" precio="20.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="17" fechaCompra="2021-05-15" fechaEntrega="2021-05-20" total="195.00">
+            <cliente nombre="Javier" apellidos="Gómez" telefono="777-777-7777" direccion="Calle17, Ciudad17, 77777, Provincia17" correo="javier.gomez@example.com" fechaInclusion="2021-05-03" />
+            <detalles>
+              <producto nombre="Mochila para laptop" referencia="ML789" precio="40.00" unidades="2" />
+              <producto nombre="Batería externa" referencia="BE101" precio="35.00" unidades="1" />
+            </detalles>
+          </pedido>
+          <pedido num="18" fechaCompra="2021-05-20" fechaEntrega="2021-05-25" total="205.00">
+            <cliente nombre="Carmen" apellidos="Hernández" telefono="888-888-8888" direccion="Calle18, Ciudad18, 88888, Provincia18" correo="carmen.hernandez@example.com" fechaInclusion="2021-05-04" />
+            <detalles>
+              <producto nombre="Auriculares con cancelación de ruido" referencia="AC789" precio="50.00" unidades="1" />
+              <producto nombre="Teclado mecánico" referencia="TM101" precio="35.00" unidades="2" />
+            </detalles>
+          </pedido>
+        <pedido num="19" fechaCompra="2021-05-25" fechaEntrega="2021-05-30" total="185.00">
+          <cliente nombre="Sara" apellidos="Martínez" telefono="999-999-9999" direccion="Calle19, Ciudad19, 99999, Provincia19" correo="sara.martinez@example.com" fechaInclusion="2021-05-05" />
+          <detalles>
+            <producto nombre="Hub USB" referencia="HU789" precio="40.00" unidades="2" />
+            <producto nombre="Almohadilla para ratón" referencia="AR101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="20" fechaCompra="2021-06-01" fechaEntrega="2021-06-05" total="210.00">
+          <cliente nombre="Pablo" apellidos="Ruiz" telefono="202-020-2020" direccion="Calle20, Ciudad20, 20202, Provincia20" correo="pablo.ruiz@example.com" fechaInclusion="2021-06-01" />
+          <detalles>
+            <producto nombre="Cámara de acción" referencia="CA789" precio="45.00" unidades="2" />
+            <producto nombre="Trípode extensible" referencia="TE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+      <trimestre num="3">
+        <pedido num="21" fechaCompra="2021-07-05" fechaEntrega="2021-07-10" total="160.00">
+          <cliente nombre="Laura" apellidos="Gutiérrez" telefono="111-111-1111" direccion="Calle21, Ciudad21, 11111, Provincia21" correo="laura.gutierrez@example.com" fechaInclusion="2021-07-01" />
+          <detalles>
+            <producto nombre="Impresora láser" referencia="IL123" precio="40.00" unidades="2" />
+            <producto nombre="Monitor LED" referencia="ML456" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="22" fechaCompra="2021-07-10" fechaEntrega="2021-07-15" total="180.00">
+          <cliente nombre="Carlos" apellidos="Ramírez" telefono="222-222-2222" direccion="Calle22, Ciudad22, 22222, Provincia22" correo="carlos.ramirez@example.com" fechaInclusion="2021-07-02" />
+          <detalles>
+            <producto nombre="Teclado inalámbrico" referencia="TI789" precio="30.00" unidades="3" />
+            <producto nombre="Ratón ergonómico" referencia="RE101" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="23" fechaCompra="2021-07-15" fechaEntrega="2021-07-20" total="190.00">
+          <cliente nombre="Ana" apellidos="Ortega" telefono="333-333-3333" direccion="Calle23, Ciudad23, 33333, Provincia23" correo="ana.ortega@example.com" fechaInclusion="2021-07-03" />
+          <detalles>
+            <producto nombre="Altavoces multimedia" referencia="AM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares con micrófono" referencia="AM101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="24" fechaCompra="2021-07-20" fechaEntrega="2021-07-25" total="220.00">
+          <cliente nombre="David" apellidos="Sánchez" telefono="444-444-4444" direccion="Calle24, Ciudad24, 44444, Provincia24" correo="david.sanchez@example.com" fechaInclusion="2021-07-04" />
+          <detalles>
+            <producto nombre="Tablet Android" referencia="TA789" precio="60.00" unidades="1" />
+            <producto nombre="Funda para tablet" referencia="FT101" precio="30.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="25" fechaCompra="2021-08-05" fechaEntrega="2021-08-10" total="190.00">
+          <cliente nombre="Sofía" apellidos="Herrera" telefono="555-555-5555" direccion="Calle25, Ciudad25, 55555, Provincia25" correo="sofia.herrera@example.com" fechaInclusion="2021-08-01" />
+          <detalles>
+            <producto nombre="Reproductor de música" referencia="RM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares Bluetooth" referencia="AB101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="26" fechaCompra="2021-08-10" fechaEntrega="2021-08-15" total="210.00">
+          <cliente nombre="Diego" apellidos="Molina" telefono="666-666-6666" direccion="Calle26, Ciudad26, 66666, Provincia26" correo="diego.molina@example.com" fechaInclusion="2021-08-02" />
+          <detalles>
+            <producto nombre="Smartwatch" referencia="SW789" precio="30.00" unidades="3" />
+            <producto nombre="Cargador inalámbrico" referencia="CI101" precio="20.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="27" fechaCompra="2021-08-15" fechaEntrega="2021-08-20" total="195.00">
+          <cliente nombre="Isabel" apellidos="López" telefono="777-777-7777" direccion="Calle27, Ciudad27, 77777, Provincia27" correo="isabel.lopez@example.com" fechaInclusion="2021-08-03" />
+          <detalles>
+            <producto nombre="Impresora de fotos" referencia="IP789" precio="40.00" unidades="2" />
+            <producto nombre="Papel fotográfico" referencia="PF101" precio="35.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="28" fechaCompra="2021-08-20" fechaEntrega="2021-08-25" total="205.00">
+          <cliente nombre="Juan" apellidos="Martínez" telefono="888-888-8888" direccion="Calle28, Ciudad28, 88888, Provincia28" correo="juan.martinez@example.com" fechaInclusion="2021-08-04" />
+          <detalles>
+            <producto nombre="Cámara réflex" referencia="CR789" precio="50.00" unidades="1" />
+            <producto nombre="Trípode profesional" referencia="TP101" precio="35.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="29" fechaCompra="2021-08-25" fechaEntrega="2021-08-30" total="185.00">
+          <cliente nombre="Elena" apellidos="Gómez" telefono="999-999-9999" direccion="Calle29, Ciudad29, 99999, Provincia29" correo="elena.gomez@example.com" fechaInclusion="2021-08-05" />
+          <detalles>
+            <producto nombre="Robot de cocina" referencia="RC789" precio="40.00" unidades="2" />
+            <producto nombre="Licuadora" referencia="LC101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="30" fechaCompra="2021-09-01" fechaEntrega="2021-09-05" total="210.00">
+          <cliente nombre="Francisco" apellidos="Díaz" telefono="303-030-3030" direccion="Calle30, Ciudad30, 30303, Provincia30" correo="francisco.diaz@example.com" fechaInclusion="2021-09-01" />
+          <detalles>
+            <producto nombre="Aspiradora robot" referencia="AR789" precio="45.00" unidades="2" />
+            <producto nombre="Escoba eléctrica" referencia="EE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+      <trimestre num="4">
+        <pedido num="31" fechaCompra="2021-10-05" fechaEntrega="2021-10-10" total="160.00">
+          <cliente nombre="María" apellidos="Sánchez" telefono="111-111-1111" direccion="Calle31, Ciudad31, 11111, Provincia31" correo="maria.sanchez@example.com" fechaInclusion="2021-10-01" />
+          <detalles>
+            <producto nombre="Smartphone" referencia="SP789" precio="40.00" unidades="2" />
+            <producto nombre="Auriculares inalámbricos" referencia="AI101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="32" fechaCompra="2021-10-10" fechaEntrega="2021-10-15" total="180.00">
+          <cliente nombre="Javier" apellidos="Gómez" telefono="222-222-2222" direccion="Calle32, Ciudad32, 22222, Provincia32" correo="javier.gomez@example.com" fechaInclusion="2021-10-02" />
+          <detalles>
+            <producto nombre="Monitor gaming" referencia="MG789" precio="30.00" unidades="3" />
+            <producto nombre="Teclado mecánico" referencia="TM101" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="33" fechaCompra="2021-10-15" fechaEntrega="2021-10-20" total="190.00">
+          <cliente nombre="Laura" apellidos="Hernández" telefono="333-333-3333" direccion="Calle33, Ciudad33, 33333, Provincia33" correo="laura.hernandez@example.com" fechaInclusion="2021-10-03" />
+          <detalles>
+            <producto nombre="Impresora multifunción" referencia="IM789" precio="45.00" unidades="2" />
+            <producto nombre="Papel para impresora" referencia="PI101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="34" fechaCompra="2021-10-20" fechaEntrega="2021-10-25" total="220.00">
+          <cliente nombre="Juan" apellidos="Martínez" telefono="444-444-4444" direccion="Calle34, Ciudad34, 44444, Provincia34" correo="juan.martinez@example.com" fechaInclusion="2021-10-04" />
+          <detalles>
+            <producto nombre="Laptop ultradelgada" referencia="LU789" precio="60.00" unidades="1" />
+            <producto nombre="Mochila para laptop" referencia="ML101" precio="30.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="35" fechaCompra="2021-11-05" fechaEntrega="2021-11-10" total="190.00">
+          <cliente nombre="Sofía" apellidos="Herrera" telefono="555-555-5555" direccion="Calle35, Ciudad35, 55555, Provincia35" correo="sofia.herrera@example.com" fechaInclusion="2021-11-01" />
+          <detalles>
+            <producto nombre="Reproductor de música" referencia="RM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares Bluetooth" referencia="AB101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="36" fechaCompra="2021-11-10" fechaEntrega="2021-11-15" total="210.00">
+          <cliente nombre="Diego" apellidos="Molina" telefono="666-666-6666" direccion="Calle36, Ciudad36, 66666, Provincia36" correo="diego.molina@example.com" fechaInclusion="2021-11-02" />
+          <detalles>
+            <producto nombre="Smartwatch" referencia="SW789" precio="30.00" unidades="3" />
+            <producto nombre="Cargador inalámbrico" referencia="CI101" precio="20.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="37" fechaCompra="2021-11-15" fechaEntrega="2021-11-20" total="195.00">
+          <cliente nombre="Isabel" apellidos="López" telefono="777-777-7777" direccion="Calle37, Ciudad37, 77777, Provincia37" correo="isabel.lopez@example.com" fechaInclusion="2021-11-03" />
+          <detalles>
+            <producto nombre="Impresora de fotos" referencia="IP789" precio="40.00" unidades="2" />
+            <producto nombre="Papel fotográfico" referencia="PF101" precio="35.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="38" fechaCompra="2021-11-20" fechaEntrega="2021-11-25" total="205.00">
+          <cliente nombre="Elena" apellidos="Gómez" telefono="888-888-8888" direccion="Calle38, Ciudad38, 88888, Provincia38" correo="elena.gomez@example.com" fechaInclusion="2021-11-04" />
+          <detalles>
+            <producto nombre="Cámara réflex" referencia="CR789" precio="50.00" unidades="1" />
+            <producto nombre="Trípode profesional" referencia="TP101" precio="35.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="39" fechaCompra="2021-11-25" fechaEntrega="2021-11-30" total="185.00">
+          <cliente nombre="Francisco" apellidos="Díaz" telefono="999-999-9999" direccion="Calle39, Ciudad39, 99999, Provincia39" correo="francisco.diaz@example.com" fechaInclusion="2021-11-05" />
+          <detalles>
+            <producto nombre="Robot de cocina" referencia="RC789" precio="40.00" unidades="2" />
+            <producto nombre="Licuadora" referencia="LC101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="40" fechaCompra="2021-12-01" fechaEntrega="2021-12-05" total="210.00">
+          <cliente nombre="Lucía" apellidos="Muñoz" telefono="404-040-4040" direccion="Calle40, Ciudad40, 40404, Provincia40" correo="lucia.munoz@example.com" fechaInclusion="2021-12-01" />
+          <detalles>
+            <producto nombre="Aspiradora robot" referencia="AR789" precio="45.00" unidades="2" />
+            <producto nombre="Escoba eléctrica" referencia="EE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+    </ano>
+    <ano year="2022">
+      <trimestre num="1">
+        <pedido num="1" fechaCompra="2022-01-05" fechaEntrega="2022-01-10" total="160.00">
+          <cliente nombre="Alejandro" apellidos="Hernández" telefono="111-111-1111" direccion="Calle España, Madrid, 11111, Comunidad de Madrid" correo="alejandro.hernandez@example.com" fechaInclusion="2022-01-01" />
+          <detalles>
+            <producto nombre="Portátil" referencia="PT123" precio="60.00" unidades="2" />
+            <producto nombre="Ratón" referencia="RT456" precio="40.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="2" fechaCompra="2022-01-15" fechaEntrega="2022-01-20" total="180.00">
+          <cliente nombre="Beatriz" apellidos="López" telefono="222-222-2222" direccion="Calle Secundaria, Ciudad2, 22222, Provincia2" correo="beatriz.lopez@example.com" fechaInclusion="2022-01-02" />
+          <detalles>
+            <producto nombre="Teclado" referencia="TK789" precio="30.00" unidades="2" />
+            <producto nombre="Monitor" referencia="MN101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="3" fechaCompra="2022-01-25" fechaEntrega="2022-02-01" total="75.00">
+          <cliente nombre="Carlos" apellidos="García" telefono="333-333-3333" direccion="Avenida Principal, Ciudad3, 33333, Provincia3" correo="carlos.garcia@example.com" fechaInclusion="2022-01-03" />
+          <detalles>
+            <producto nombre="Impresora" referencia="IP202" precio="25.00" unidades="1" />
+            <producto nombre="Altavoces" referencia="AL555" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="4" fechaCompra="2022-02-05" fechaEntrega="2022-02-10" total="120.00">
+          <cliente nombre="Diana" apellidos="Martínez" telefono="444-444-4444" direccion="Calle Principal, Ciudad4, 44444, Provincia4" correo="diana.martinez@example.com" fechaInclusion="2022-01-04" />
+          <detalles>
+            <producto nombre="Silla Gamer" referencia="SG777" precio="80.00" unidades="1" />
+            <producto nombre="Auriculares" referencia="AU333" precio="40.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="5" fechaCompra="2022-02-15" fechaEntrega="2022-02-20" total="200.00">
+          <cliente nombre="Eduardo" apellidos="Rodríguez" telefono="555-555-5555" direccion="Calle Principal, Ciudad5, 55555, Provincia5" correo="eduardo.rodriguez@example.com" fechaInclusion="2022-01-05" />
+          <detalles>
+            <producto nombre="Laptop Gaming" referencia="LG999" precio="150.00" unidades="1" />
+              <producto nombre="Mouse Gaming" referencia="MG111" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="6" fechaCompra="2022-02-25" fechaEntrega="2022-03-01" total="90.00">
+          <cliente nombre="Fernanda" apellidos="Lara" telefono="666-666-6666" direccion="Avenida Central, Ciudad6, 66666, Provincia6" correo="fernanda.lara@example.com" fechaInclusion="2022-01-06" />
+          <detalles>
+            <producto nombre="Teclado Inalámbrico" referencia="TI777" precio="30.00" unidades="2" />
+            <producto nombre="Alfombrilla" referencia="AF888" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="7" fechaCompra="2022-03-05" fechaEntrega="2022-03-10" total="110.00">
+          <cliente nombre="Gabriel" apellidos="Mendoza" telefono="777-777-7777" direccion="Calle Central, Ciudad7, 77777, Provincia7" correo="gabriel.mendoza@example.com" fechaInclusion="2022-01-07" />
+          <detalles>
+            <producto nombre="Webcam HD" referencia="WH222" precio="60.00" unidades="1" />
+            <producto nombre="Micrófono USB" referencia="MU333" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="8" fechaCompra="2022-03-15" fechaEntrega="2022-03-20" total="130.00">
+          <cliente nombre="Héctor" apellidos="Núñez" telefono="888-888-8888" direccion="Avenida Principal, Ciudad8, 88888, Provincia8" correo="hector.nunez@example.com" fechaInclusion="2022-01-08" />
+          <detalles>
+            <producto nombre="Tablet" referencia="TB444" precio="80.00" unidades="1" />
+            <producto nombre="Auriculares Inalámbricos" referencia="AI555" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="9" fechaCompra="2022-03-25" fechaEntrega="2022-03-30" total="100.00">
+          <cliente nombre="Isabel" apellidos="Ortega" telefono="999-999-9999" direccion="Calle Central, Ciudad9, 99999, Provincia9" correo="isabel.ortega@example.com" fechaInclusion="2022-01-09" />
+          <detalles>
+            <producto nombre="Disco Duro Externo" referencia="DD555" precio="50.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="10" fechaCompra="2022-04-05" fechaEntrega="2022-04-10" total="160.00">
+          <cliente nombre="Javier" apellidos="Pérez" telefono="101-101-1010" direccion="Avenida España, Ciudad10, 101010, Provincia10" correo="javier.perez@example.com" fechaInclusion="2022-01-10" />
+          <detalles>
+            <producto nombre="Impresora Multifunción" referencia="IM999" precio="80.00" unidades="1" />
+            <producto nombre="Pendrive" referencia="PD777" precio="40.00" unidades="2" />
+          </detalles>
+        </pedido>
+      </trimestre>
+      <trimestre num="2">
+        <pedido num="11" fechaCompra="2021-04-05" fechaEntrega="2021-04-10" total="160.00">
+          <cliente nombre="Juan" apellidos="López" telefono="111-111-1111" direccion="Calle11, Ciudad11, 11111, Provincia11" correo="juan.lopez@example.com" fechaInclusion="2021-04-01" />
+          <detalles>
+            <producto nombre="Lámpara de escritorio" referencia="LE123" precio="40.00" unidades="2" />
+            <producto nombre="Silla ergonómica" referencia="SE456" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="12" fechaCompra="2021-04-10" fechaEntrega="2021-04-15" total="180.00">
+          <cliente nombre="María" apellidos="García" telefono="222-222-2222" direccion="Calle12, Ciudad12, 22222, Provincia12" correo="maria.garcia@example.com" fechaInclusion="2021-04-02" />
+          <detalles>
+            <producto nombre="Auriculares inalámbricos" referencia="AI789" precio="30.00" unidades="3" />
+            <producto nombre="Mousepad ergonómico" referencia="ME101" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="13" fechaCompra="2021-04-15" fechaEntrega="2021-04-20" total="190.00">
+          <cliente nombre="Carlos" apellidos="Martínez" telefono="333-333-3333" direccion="Calle13, Ciudad13, 33333, Provincia13" correo="carlos.martinez@example.com" fechaInclusion="2021-04-03" />
+          <detalles>
+            <producto nombre="Cámara web HD" referencia="CW789" precio="45.00" unidades="2" />
+            <producto nombre="Teclado retroiluminado" referencia="TR101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="14" fechaCompra="2021-04-20" fechaEntrega="2021-04-25" total="220.00">
+          <cliente nombre="Ana" apellidos="Rodríguez" telefono="444-444-4444" direccion="Calle14, Ciudad14, 44444, Provincia14" correo="ana.rodriguez@example.com" fechaInclusion="2021-04-04" />
+          <detalles>
+            <producto nombre="Impresora multifunción" referencia="IM123" precio="60.00" unidades="1" />
+            <producto nombre="Router de alta velocidad" referencia="RA456" precio="30.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="15" fechaCompra="2021-05-05" fechaEntrega="2021-05-10" total="190.00">
+          <cliente nombre="David" apellidos="Fernández" telefono="555-555-5555" direccion="Calle15, Ciudad15, 55555, Provincia15" correo="david.fernandez@example.com" fechaInclusion="2021-05-01" />
+          <detalles>
+            <producto nombre="Altavoces Bluetooth" referencia="AB789" precio="45.00" unidades="2" />
+            <producto nombre="Micrófono USB" referencia="MU101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="16" fechaCompra="2021-05-10" fechaEntrega="2021-05-15" total="210.00">
+          <cliente nombre="Elena" apellidos="Pérez" telefono="666-666-6666" direccion="Calle16, Ciudad16, 66666, Provincia16" correo="elena.perez@example.com" fechaInclusion="2021-05-02" />
+          <detalles>
+            <producto nombre="Alfombrilla gaming" referencia="AG789" precio="30.00" unidades="3" />
+            <producto nombre="Silla gaming" referencia="SG101" precio="20.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="17" fechaCompra="2021-05-15" fechaEntrega="2021-05-20" total="195.00">
+          <cliente nombre="Javier" apellidos="Gómez" telefono="777-777-7777" direccion="Calle17, Ciudad17, 77777, Provincia17" correo="javier.gomez@example.com" fechaInclusion="2021-05-03" />
+          <detalles>
+            <producto nombre="Mochila para laptop" referencia="ML789" precio="40.00" unidades="2" />
+            <producto nombre="Batería externa" referencia="BE101" precio="35.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="18" fechaCompra="2021-05-20" fechaEntrega="2021-05-25" total="205.00">
+          <cliente nombre="Carmen" apellidos="Hernández" telefono="888-888-8888" direccion="Calle18, Ciudad18, 88888, Provincia18" correo="carmen.hernandez@example.com" fechaInclusion="2021-05-04" />
+          <detalles>
+            <producto nombre="Auriculares con cancelación de ruido" referencia="AC789" precio="50.00" unidades="1" />
+            <producto nombre="Teclado mecánico" referencia="TM101" precio="35.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="19" fechaCompra="2021-05-25" fechaEntrega="2021-05-30" total="185.00">
+          <cliente nombre="Sara" apellidos="Martínez" telefono="999-999-9999" direccion="Calle19, Ciudad19, 99999, Provincia19" correo="sara.martinez@example.com" fechaInclusion="2021-05-05" />
+          <detalles>
+            <producto nombre="Hub USB" referencia="HU789" precio="40.00" unidades="2" />
+            <producto nombre="Almohadilla para ratón" referencia="AR101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="20" fechaCompra="2021-06-01" fechaEntrega="2021-06-05" total="210.00">
+          <cliente nombre="Pablo" apellidos="Ruiz" telefono="202-020-2020" direccion="Calle20, Ciudad20, 20202, Provincia20" correo="pablo.ruiz@example.com" fechaInclusion="2021-06-01" />
+          <detalles>
+            <producto nombre="Cámara de acción" referencia="CA789" precio="45.00" unidades="2" />
+            <producto nombre="Trípode extensible" referencia="TE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+      <trimestre num="3">
+        <pedido num="21" fechaCompra="2021-07-05" fechaEntrega="2021-07-10" total="160.00">
+          <cliente nombre="Laura" apellidos="Gutiérrez" telefono="111-111-1111" direccion="Calle21, Ciudad21, 11111, Provincia21" correo="laura.gutierrez@example.com" fechaInclusion="2021-07-01" />
+          <detalles>
+            <producto nombre="Impresora láser" referencia="IL123" precio="40.00" unidades="2" />
+            <producto nombre="Monitor LED" referencia="ML456" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="22" fechaCompra="2021-07-10" fechaEntrega="2021-07-15" total="180.00">
+          <cliente nombre="Carlos" apellidos="Ramírez" telefono="222-222-2222" direccion="Calle22, Ciudad22, 22222, Provincia22" correo="carlos.ramirez@example.com" fechaInclusion="2021-07-02" />
+          <detalles>
+            <producto nombre="Teclado inalámbrico" referencia="TI789" precio="30.00" unidades="3" />
+            <producto nombre="Ratón ergonómico" referencia="RE101" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="23" fechaCompra="2021-07-15" fechaEntrega="2021-07-20" total="190.00">
+          <cliente nombre="Ana" apellidos="Ortega" telefono="333-333-3333" direccion="Calle23, Ciudad23, 33333, Provincia23" correo="ana.ortega@example.com" fechaInclusion="2021-07-03" />
+          <detalles>
+            <producto nombre="Altavoces multimedia" referencia="AM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares con micrófono" referencia="AM101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="24" fechaCompra="2021-07-20" fechaEntrega="2021-07-25" total="220.00">
+          <cliente nombre="David" apellidos="Sánchez" telefono="444-444-4444" direccion="Calle24, Ciudad24, 44444, Provincia24" correo="david.sanchez@example.com" fechaInclusion="2021-07-04" />
+          <detalles>
+            <producto nombre="Tablet Android" referencia="TA789" precio="60.00" unidades="1" />
+            <producto nombre="Funda para tablet" referencia="FT101" precio="30.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="25" fechaCompra="2021-08-05" fechaEntrega="2021-08-10" total="190.00">
+          <cliente nombre="Sofía" apellidos="Herrera" telefono="555-555-5555" direccion="Calle25, Ciudad25, 55555, Provincia25" correo="sofia.herrera@example.com" fechaInclusion="2021-08-01" />
+          <detalles>
+            <producto nombre="Reproductor de música" referencia="RM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares Bluetooth" referencia="AB101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="26" fechaCompra="2021-08-10" fechaEntrega="2021-08-15" total="210.00">
+          <cliente nombre="Diego" apellidos="Molina" telefono="666-666-6666" direccion="Calle26, Ciudad26, 66666, Provincia26" correo="diego.molina@example.com" fechaInclusion="2021-08-02" />
+          <detalles>
+            <producto nombre="Smartwatch" referencia="SW789" precio="30.00" unidades="3" />
+            <producto nombre="Cargador inalámbrico" referencia="CI101" precio="20.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="27" fechaCompra="2021-08-15" fechaEntrega="2021-08-20" total="195.00">
+          <cliente nombre="Isabel" apellidos="López" telefono="777-777-7777" direccion="Calle27, Ciudad27, 77777, Provincia27" correo="isabel.lopez@example.com" fechaInclusion="2021-08-03" />
+          <detalles>
+            <producto nombre="Impresora de fotos" referencia="IP789" precio="40.00" unidades="2" />
+            <producto nombre="Papel fotográfico" referencia="PF101" precio="35.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="28" fechaCompra="2021-08-20" fechaEntrega="2021-08-25" total="205.00">
+          <cliente nombre="Juan" apellidos="Martínez" telefono="888-888-8888" direccion="Calle28, Ciudad28, 88888, Provincia28" correo="juan.martinez@example.com" fechaInclusion="2021-08-04" />
+          <detalles>
+            <producto nombre="Cámara réflex" referencia="CR789" precio="50.00" unidades="1" />
+            <producto nombre="Trípode profesional" referencia="TP101" precio="35.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="29" fechaCompra="2021-08-25" fechaEntrega="2021-08-30" total="185.00">
+          <cliente nombre="Elena" apellidos="Gómez" telefono="999-999-9999" direccion="Calle29, Ciudad29, 99999, Provincia29" correo="elena.gomez@example.com" fechaInclusion="2021-08-05" />
+          <detalles>
+            <producto nombre="Robot de cocina" referencia="RC789" precio="40.00" unidades="2" />
+            <producto nombre="Licuadora" referencia="LC101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="30" fechaCompra="2021-09-01" fechaEntrega="2021-09-05" total="210.00">
+          <cliente nombre="Francisco" apellidos="Díaz" telefono="303-030-3030" direccion="Calle30, Ciudad30, 30303, Provincia30" correo="francisco.diaz@example.com" fechaInclusion="2021-09-01" />
+          <detalles>
+            <producto nombre="Aspiradora robot" referencia="AR789" precio="45.00" unidades="2" />
+            <producto nombre="Escoba eléctrica" referencia="EE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+      <trimestre num="4">
+        <pedido num="31" fechaCompra="2021-10-05" fechaEntrega="2021-10-10" total="160.00">
+          <cliente nombre="María" apellidos="Sánchez" telefono="111-111-1111" direccion="Calle31, Ciudad31, 11111, Provincia31" correo="maria.sanchez@example.com" fechaInclusion="2021-10-01" />
+          <detalles>
+            <producto nombre="Smartphone" referencia="SP789" precio="40.00" unidades="2" />
+            <producto nombre="Auriculares inalámbricos" referencia="AI101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="32" fechaCompra="2021-10-10" fechaEntrega="2021-10-15" total="180.00">
+          <cliente nombre="Javier" apellidos="Gómez" telefono="222-222-2222" direccion="Calle32, Ciudad32, 22222, Provincia32" correo="javier.gomez@example.com" fechaInclusion="2021-10-02" />
+          <detalles>
+            <producto nombre="Monitor gaming" referencia="MG789" precio="30.00" unidades="3" />
+            <producto nombre="Teclado mecánico" referencia="TM101" precio="30.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="33" fechaCompra="2021-10-15" fechaEntrega="2021-10-20" total="190.00">
+          <cliente nombre="Laura" apellidos="Hernández" telefono="333-333-3333" direccion="Calle33, Ciudad33, 33333, Provincia33" correo="laura.hernandez@example.com" fechaInclusion="2021-10-03" />
+          <detalles>
+            <producto nombre="Impresora multifunción" referencia="IM789" precio="45.00" unidades="2" />
+            <producto nombre="Papel para impresora" referencia="PI101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="34" fechaCompra="2021-10-20" fechaEntrega="2021-10-25" total="220.00">
+          <cliente nombre="Juan" apellidos="Martínez" telefono="444-444-4444" direccion="Calle34, Ciudad34, 44444, Provincia34" correo="juan.martinez@example.com" fechaInclusion="2021-10-04" />
+          <detalles>
+            <producto nombre="Laptop ultradelgada" referencia="LU789" precio="60.00" unidades="1" />
+            <producto nombre="Mochila para laptop" referencia="ML101" precio="30.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="35" fechaCompra="2021-11-05" fechaEntrega="2021-11-10" total="190.00">
+          <cliente nombre="Sofía" apellidos="Herrera" telefono="555-555-5555" direccion="Calle35, Ciudad35, 55555, Provincia35" correo="sofia.herrera@example.com" fechaInclusion="2021-11-01" />
+          <detalles>
+            <producto nombre="Reproductor de música" referencia="RM789" precio="45.00" unidades="2" />
+            <producto nombre="Auriculares Bluetooth" referencia="AB101" precio="50.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="36" fechaCompra="2021-11-10" fechaEntrega="2021-11-15" total="210.00">
+          <cliente nombre="Diego" apellidos="Molina" telefono="666-666-6666" direccion="Calle36, Ciudad36, 66666, Provincia36" correo="diego.molina@example.com" fechaInclusion="2021-11-02" />
+          <detalles>
+            <producto nombre="Smartwatch" referencia="SW789" precio="30.00" unidades="3" />
+            <producto nombre="Cargador inalámbrico" referencia="CI101" precio="20.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="37" fechaCompra="2021-11-15" fechaEntrega="2021-11-20" total="195.00">
+          <cliente nombre="Isabel" apellidos="López" telefono="777-777-7777" direccion="Calle37, Ciudad37, 77777, Provincia37" correo="isabel.lopez@example.com" fechaInclusion="2021-11-03" />
+          <detalles>
+            <producto nombre="Impresora de fotos" referencia="IP789" precio="40.00" unidades="2" />
+            <producto nombre="Papel fotográfico" referencia="PF101" precio="35.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="38" fechaCompra="2021-11-20" fechaEntrega="2021-11-25" total="205.00">
+          <cliente nombre="Elena" apellidos="Gómez" telefono="888-888-8888" direccion="Calle38, Ciudad38, 88888, Provincia38" correo="elena.gomez@example.com" fechaInclusion="2021-11-04" />
+          <detalles>
+            <producto nombre="Cámara réflex" referencia="CR789" precio="50.00" unidades="1" />
+            <producto nombre="Trípode profesional" referencia="TP101" precio="35.00" unidades="2" />
+          </detalles>
+        </pedido>
+        <pedido num="39" fechaCompra="2021-11-25" fechaEntrega="2021-11-30" total="185.00">
+          <cliente nombre="Francisco" apellidos="Díaz" telefono="999-999-9999" direccion="Calle39, Ciudad39, 99999, Provincia39" correo="francisco.diaz@example.com" fechaInclusion="2021-11-05" />
+          <detalles>
+            <producto nombre="Robot de cocina" referencia="RC789" precio="40.00" unidades="2" />
+            <producto nombre="Licuadora" referencia="LC101" precio="25.00" unidades="1" />
+          </detalles>
+        </pedido>
+        <pedido num="40" fechaCompra="2021-12-01" fechaEntrega="2021-12-05" total="210.00">
+          <cliente nombre="Lucía" apellidos="Muñoz" telefono="404-040-4040" direccion="Calle40, Ciudad40, 40404, Provincia40" correo="lucia.munoz@example.com" fechaInclusion="2021-12-01" />
+          <detalles>
+            <producto nombre="Aspiradora robot" referencia="AR789" precio="45.00" unidades="2" />
+            <producto nombre="Escoba eléctrica" referencia="EE101" precio="60.00" unidades="1" />
+          </detalles>
+        </pedido>
+      </trimestre>
+    </ano>
+</ecommerce>
